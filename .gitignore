@@ -130,3 +130,5 @@ dmypy.json
 
 #VSCode
 .vscode
+
+git remote add origin url/to/your/fork
