@@ -1,0 +1,10 @@
+My approach to this task:
+
+I don't like writing new code, so my intention is always to use pre-written / tested code where possible or where no NFR is specified.
+Anything to do with search - especially where size is not specified, I reach for Lucene or the BM25 algorithm.
+Whoosh is a Lucene-like library in python - so I will use Whoosh.
+Whoosh uses the filesystem and the requirement is to be in-memory, so I will use a file-like object to store Whoosh's index file: os.StringIO
+---------------------
+
+can be run from a virtualenv (pref.) or not!
+pip install whoosh
